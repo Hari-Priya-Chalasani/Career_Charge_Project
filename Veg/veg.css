@@ -17,14 +17,33 @@
     align-items: center;
     align-content: center;
 }
-.item_button{
-    background-color: #f8e4cc;
-    border: 1px solid #f8e4cc;
+.a{
+    color: black;
     font-size: 50px;
     font-style: italic ;
     font-weight: 900;
     font-family:serif;
+    text-decoration: none;
 }
-.a{
+.footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+.footer > button{
+    background-color: #f8e4cc;
+    border: 1px solid #f8e4cc;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: serif;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 50px;
+}
+.footer_a{
     color: black;
 }
