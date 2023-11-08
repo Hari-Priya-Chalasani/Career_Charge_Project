@@ -20,6 +20,7 @@
 }
 img{
     border-radius: 20px;
+    object-fit: cover;
 }
 button{
     width: 100px;
