@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation</title>
+    <link rel="stylesheet" href="reservation.css">   <!--Linking External CSS to this HTML file-->
+</head>
+<body>
+    <form class="form">
+        <h2 class="h2">Table Reservation</h2>
+        <!-- Name Section -->
+        <label class="label" for="name">Name:</label>
+        <input class="input" type="text" id="name" name="name" required>
+        <!-- E-Mail Section -->
+        <label  class="label" for="email">Email:</label>
+        <input class="input" type="email" id="email" name="email" required>
+        <!-- Phone NUmber Section -->
+        <label class="label" for="phone">Phone:</label>
+        <input class="input" type="tel" id="phone" name="phone" required>
+        <!-- Party-Size Section -->
+        <label class="label" for="party-size">Party Size:</label>
+        <select class="select" id="party-size" name="party-size" required>
+            <option value="0">Select</option>
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 person</option>
+            <option value="5">6 person</option>
+        </select>
+        <!-- Date Section -->
+        <label class="label" for="date">Date:</label>
+        <input class="input" type="date" id="date" name="date" required>
+        <!-- Time Section -->
+        <label class="label" for="time">Time:</label>
+        <input class="input" type="time" id="time" name="time" required>
+        <!-- Submit Form Section -->
+        <button class="button" type="submit">Reserve Table</button>
+    </form> 
+</body>
+</html>
