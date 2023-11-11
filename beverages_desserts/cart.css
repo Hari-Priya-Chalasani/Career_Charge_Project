@@ -1,0 +1,28 @@
+h1{
+    font-family:serif;
+    font-size:80px;
+    text-align: center;
+    color:#192a56;
+    font-style: italic; 
+}
+.footer{
+    display: flex;
+    justify-content:end;
+    margin: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+button{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color:#192a56;
+    border-radius: 10px;
+    font-weight: bold;
+    color:white;
+    border: 1px solid #192a56;
+}
+button:hover{
+    background-color:#27ae60;
+}
