@@ -156,6 +156,7 @@ li a:hover{
     font-weight: 600;
     background-color: #192a56;
     color: #fff;
+    
 }
 .menu_container > h2{
     font-size: 40px;
@@ -369,4 +370,8 @@ li a:hover{
 }
 .quick_links > ul > li a:hover{
     background-color:transparent;
+}
+.menu_button > button > a{
+    text-decoration: none;
+    color: white;
 }
