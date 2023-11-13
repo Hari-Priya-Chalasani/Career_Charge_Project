@@ -20,11 +20,12 @@ p{
 }
 .border{
     padding-bottom: 20px;
-    margin: 10px;
+    margin: 30px;
     border: 1px solid #fff;
     background-color:#fff;
     width: 380px;
-    height: 400px;
+    height: 420px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .image{
@@ -81,4 +82,5 @@ h2{
 }
 .span{
     margin-left: 17px;
+    text-align: center;
 }
