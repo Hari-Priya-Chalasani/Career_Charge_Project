@@ -12,13 +12,15 @@ img{
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-style: italic;
+    font-family: serif;
+    border-radius: 8px;
 }
 .item_image{
     margin-top: 20px;
 }
 .item_price{
     display: flex;
-    gap: 20px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -31,12 +33,13 @@ img{
     width: 150px;
     height: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     border-radius: 10px;
     color: white;
     background-color: #192a56;
     font-style: italic;
+    font-family: serif;
 }
 .card{
     display: flex;
@@ -61,6 +64,7 @@ img{
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    font-family: serif;
 }
 .main_container > h1{
     font-size: 70px;
@@ -78,6 +82,8 @@ img{
     text-align: end;
     margin-right: 50px;
     margin-bottom: 20px;
+    font-family: serif;
+    font-style: italic;
 }
 .footer > a{
     color: black;
