@@ -8,10 +8,11 @@ h1{
 .footer{
     display: flex;
     justify-content:end;
-    margin: 50px;
+    margin: 0px;
     position: absolute;
     bottom: 20px;
     right: 20px;
+    
 }
 button{
     margin-left: 20px;
@@ -26,3 +27,20 @@ button{
 button:hover{
     background-color:#27ae60;
 }
+<<<<<<< HEAD
+.box{
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+
+}
+=======
+>>>>>>> 15a330c8fd36e1b61a3f4db74815afcbb3222874
