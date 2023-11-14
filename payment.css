@@ -47,3 +47,7 @@ input[type=radio] {
     text-align: center;
     margin-left: 180px;
 }
+.proceed:hover{
+    background-color: #192a56;
+    color: #fff;
+}
